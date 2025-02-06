@@ -1,0 +1,24 @@
+{
+  "name": "ea39-atm",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "EA",
+  "license": "ISC",
+  "description": "A Simple ATM program",
+  "dependencies": {
+    "ea39-atm": "^1.0.1",
+    "inquirer": "^12.3.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
